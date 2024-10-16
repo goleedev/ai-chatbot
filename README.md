@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Chatbot Project
 
-## Getting Started
+This project is an experimental AI-powered chatbot application built with Next.js, leveraging the OpenAI API for natural language processing and communication. The primary goal of this project is to research and adopt new AI technologies in the context of web-based applications, with a focus on interactive, real-time user experiences.
 
-First, run the development server:
+## Purpose
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The project was initially started as part of my research into integrating AI-driven technologies into modern web applications. I wanted to explore how to utilize the latest advancements in AI, such as OpenAI's GPT models, within a scalable, user-friendly platform. The objective was to learn how to manage real-time chat interactions, efficiently handle API requests, and create responsive UIs that interact with AI models.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- AI-Powered Chat: Integrates OpenAI's GPT-3.5-turbo model to provide intelligent responses to user queries.
+- Real-Time Interaction: The chatbot supports real-time conversations with the ability to stream responses as they are generated.
+- Next.js Integration: The project leverages the App Router feature of Next.js for API routing and server-side functionality.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technology Stack
 
-## Learn More
+- Next.js: Used for building the frontend and API routes.
+- OpenAI API: For natural language processing and AI-powered text generation.
+- TypeScript: Ensuring type safety and enhancing the maintainability of the codebase.
+- Tailwind CSS: For styling and layout management.
 
-To learn more about Next.js, take a look at the following resources:
+## Key Learning and Adoption of AI Technology
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The project is a part of my ongoing research into the practical implementation of AI technology within the frontend space. While building this, I adopted several cutting-edge practices:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Streaming Responses: Implemented OpenAI’s streaming response functionality to handle real-time user interaction, which enhances the user experience by allowing them to see partial responses as the AI generates them.
+- Model Selection: Experimented with multiple OpenAI models (gpt-3.5-turbo and gpt-4) to optimize performance, costs, and response quality.
 
-## Deploy on Vercel
+## Challenges and Solutions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+WIP
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is licensed under the MIT License.
